@@ -3,6 +3,9 @@ title: Node.js path API
 category: Node.js
 intro: |
   Quick reference to the [Node.js path API](https://nodejs.org/api/path.html).
+links:
+  - title: Node.js path API
+    url: https://nodejs.org/api/path.html
 ---
 
 ### Functions
@@ -29,4 +32,4 @@ path.basename('/etc/rc.d', '.d') // => "rc"
 
 ### References
 
-- https://nodejs.org/api/path.html
+- <https://nodejs.org/api/path.html>

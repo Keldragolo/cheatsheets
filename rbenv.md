@@ -7,6 +7,9 @@ description: |
   A one-page guide to rbenv Ruby version manager, with usage examples and more.
 intro: |
   [rbenv](https://github.com/rbenv/rbenv) lets you manage installations of multiple Ruby versions.
+links:
+  - title: Installation
+    url: https://github.com/rbenv/rbenv#installation
 ---
 
 ### Installation
@@ -51,7 +54,8 @@ See: [Installation](https://github.com/rbenv/rbenv#installation)
 | `rbenv rehash`          | Re-write binstubs           |
 
 ## Using versions
-{: .-three-column}
+
+<!-- {: .-three-column} -->
 
 ### Locally
 

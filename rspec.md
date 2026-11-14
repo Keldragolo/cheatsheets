@@ -1,14 +1,12 @@
 ---
 title: RSpec
 category: Ruby
+intro: |
+  RSpec is a Ruby library for testing.
+links:
+  - title: https://rspec.info/
+    url: https://rspec.info/
 ---
-
-### About
-{: .-intro}
-
-RSpec is a Ruby library for testing.
-
-- <https://rspec.info/>
 
 ### Invoking tests
 
@@ -195,7 +193,7 @@ expect(die).to receive(:roll)
   .at_most(n).times
 ```
 
-https://relishapp.com/rspec/rspec-mocks/docs
+<https://relishapp.com/rspec/rspec-mocks/docs>
 
 ## Spec helpers
 

@@ -12,10 +12,14 @@ keywords:
 intro: |
   Screen or GNU Screen is a terminal multiplexer. In other words, it means that you can start a screen session and then open any number of windows (virtual terminals).
   This does not contain **all** of screen's commands and options, read [GNU's manual](https://www.gnu.org/software/screen/manual/screen.html#Commands) to see everything
+links:
+  - title: GNU's manual
+    url: https://www.gnu.org/software/screen/manual/screen.html#Commands
 ---
 
 ## Basics
-{: .-three-column}
+
+<!-- {: .-three-column} -->
 
 ### Basics
 
@@ -35,6 +39,7 @@ intro: |
 | `ctrl+a n`      | Go to the next screen tab                                                                |
 | `ctrl+a p`      | Go to the previous screen tab                                                            |
 | `ctrl+a k`      | Kill current screen tab                                                                  |
+| `ctrl+a Esc`    | Enter scrollback mode (PgUp/PgDn or arrows to scroll)                                   |
 
 ### Visual pleasure
 

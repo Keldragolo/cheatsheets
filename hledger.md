@@ -1,13 +1,12 @@
 ---
 title: Hledger
 category: Ledger
+links:
+  - title: https://hledger.org
+    url: https://hledger.org
+  - title: https://hledger.org/quickstart.html
+    url: https://hledger.org/quickstart.html
 ---
-
-### About
-{: .-intro}
-
-- <https://hledger.org>
-- <https://hledger.org/quickstart.html>
 
 ### Reporting
 
@@ -111,7 +110,9 @@ Used for `--period`, `--begin` and `--end` (`-p` `-b` `-e`).
 -p this year
 ```
 
-## Display formats
+## Options
+
+### Display formats
 
 ```
     --tree          # only in bal
@@ -124,7 +125,7 @@ Used for `--period`, `--begin` and `--end` (`-p` `-b` `-e`).
     --date2         # use date2 when available
 ```
 
-## Multi-column mode
+### Multi-column mode
 When used with intervals (like `--weekly`):
 
 ```
@@ -141,13 +142,15 @@ Also: (only in `bal`)
 ```
 
 
-## Accounts
+## Commands
+
+### Accounts
 
 ```
 hledger accounts [--tree]
 ```
 
-## Other commands
+### Other commands
 
 ```
 hledger balancesheet       # bs
@@ -158,7 +161,7 @@ hledger activity
 hledger stats
 ```
 
-## Examples
+### Examples
 
 ```
 # Current balance

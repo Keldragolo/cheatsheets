@@ -3,10 +3,14 @@ title: DOM Selection
 category: JavaScript
 intro: |
   Quick introduction to the HTML [DOM selection API](https://devdocs.io/dom/selection).
+links:
+  - title: Selection
+    url: https://developer.mozilla.org/en-US/docs/Web/API/Selection
 ---
 
 ## Reference
-{: .-three-column}
+
+<!-- {: .-three-column} -->
 
 ### Selection
 

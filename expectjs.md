@@ -1,6 +1,12 @@
 ---
 title: expect.js
-category: JavaScript libraries
+category: Hidden
+# Documents mjackson/expect, whose spy API Jest dropped. Real expect.js last
+# shipped 0.3.1 in 2014.
+tags: [Archived]
+archived: |
+  The sheet describes `mjackson/expect`, whose spies Jest dropped; the real
+  expect.js last shipped in 2014. Use [Jest's expect](./jest) instead.
 updated: 2017-09-02
 weight: -1
 ---
@@ -10,7 +16,8 @@ weight: -1
 ```
 npm install --save-dev expect
 ```
-{: .-setup}
+
+<!-- {: .-setup} -->
 
 ```js
 // using ES6 modules
@@ -70,7 +77,8 @@ const video = {
   play: function () { ··· }
 }
 ```
-{: .-setup}
+
+<!-- {: .-setup} -->
 
 ```js
 spy = expect.spyOn(video, 'play')

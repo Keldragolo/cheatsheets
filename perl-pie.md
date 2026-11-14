@@ -1,12 +1,12 @@
 ---
 title: Perl-pie
-category: Development
+category: CLI
+intro: |
+  Use `perl` to search and replace across many files.
+links:
+  - title: perlrun
+    url: https://perldoc.perl.org/perlrun
 ---
-
-### About
-{: .-intro}
-
-Use `perl` to search and replace across many files.
 
 ### Search and replace
 
